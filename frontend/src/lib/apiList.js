@@ -1,4 +1,5 @@
-export const server = "http://localhost:4444";
+// export const server = "http://localhost:4444";
+export const server = "https://backendjobs-io.onrender.com";
 
 const apiList = {
   login: `${server}/auth/login`,
