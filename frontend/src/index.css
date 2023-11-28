@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Calistoga&family=M+PLUS+Rounded+1c:wght@300;400&family=Marcellus&family=Mate:ital@0;1&family=Noto+Serif:wght@700&family=Open+Sans:ital,wght@0,400;1,300&family=Oxygen&family=Playfair+Display&family=Poppins:ital,wght@0,400;1,300&family=Ubuntu:wght@300&display=swap");
+/* font-family: 'Calistoga', serif;
+font-family: 'M PLUS Rounded 1c', sans-serif;
+font-family: 'Marcellus', serif;
+font-family: 'Mate', serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oxygen', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+* {
+  font-family: "Mate", serif !important;
+  font-weight: 600 !important;
+}
+/* 
+button {
+  cursor: pointer;
+  color: white !important;
+  background-color: #cf7334 !important;
+} */
+button:hover {
+  background-color: white !important;
+  color: black !important;
+}
+.nav-btn {
+  background-color: inherit !important;
+  border: none !important;
+  color: white !important;
+}
+.nav-btn:hover {
+  background-color: inherit !important;
+  color: white !important;
+  border-bottom: 2px solid white !important;
+  border-width: 10px !important;
+}
+.wel-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 60px;
+}
+.wel-text {
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+}
+.wel-btn {
+  color: white;
+  background-color: rgba(72, 72, 157, 0.71);
+  font-size: 20px;
+  width: 50%;
+}
+.wel-img > img {
+  border-radius: 50%;
+  height: fit-40vw;
+  width: 30vw;
+}
